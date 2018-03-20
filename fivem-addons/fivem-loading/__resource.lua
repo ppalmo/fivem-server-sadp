@@ -1,32 +1,30 @@
+description 'SADPS Loading Screen'
+
 files {
     'index.html',
-	'timeout.html',
-    'img/loading.gif',
-	'img/loadscreen.jpg',
+
+    'css/index.css',
+    'css/colors.css',
+    'css/icomoon.css',
+    
+    'fonts/gravity.otf',
+    'fonts/icomoon.ttf',
+    
+    'img/cursor.png',    
     'img/logo.png',
-	'img/logo2.png',
-	'img/bg-1.jpg',
-    'img/bg-2.jpg',
-	'img/bg-3.jpg',
-	'img/bg-4.jpg',
-    'img/bg-5.jpg',
-	'img/bg-6.jpg',
-	'img/bg-7.jpg',
-    'img/bg-8.jpg',
-	'img/bg-9.jpg',
-	'img/bg-10.jpg',
-    'img/timeout.png',
-	'css/bootstrap.css',
-    'css/owl.carousel.css',
-	'css/style.css',
-	'infobox/1.png',
-    'js/jquery.ajaxchimp.js',
-	'js/jquery.backstretch.min.js',
-    'js/jquery-1.11.0.min.js',
-	'js/lj-safety-first.js',
-    'js/owl.carousel.min.js',
+    'img/logo2.png',
+    'img/bg1.jpg',
+    'img/bg2.jpg',
+    'img/bg3.jpg',
+    
+    'js/synn.js',
+    'js/config.js',
+    'js/progressbar-handler.js',
+    'js/progressbar-main.js',
+    'js/progressbar-renderer.js',
+    'js/music-handler.js',
+    'js/music-controls.js',
+    'js/background-handler.js',
 }
 
 loadscreen 'index.html'
-
-resource_manifest_version '77731fab-63ca-442c-a67b-abc70f28dfa5'
